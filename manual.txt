@@ -12,7 +12,7 @@ Melnik and J.P. Gleeson (2014) if used.
 
 To perform simulations on an ER Graph run the following command from the terminal in the same location as the executable file ASsim is located:
 
-./ASsim sim beta mu X0 1 N z tend N_trials Xdat EXdat PXTdat
+./sim sim beta mu X0 1 N z tend N_trials Xdat EXdat PXTdat
 
 Explanation of variables
  - sim:         The simulation method to use. Takes values 1 for GA, 2 for AS and 3 for S.
@@ -54,7 +54,7 @@ network of 1000 nodes and mean degree z=4 with beta = 0.2 and mu =
 To perform simulations on a Complete Graph (one in which every node is connected to every other node) run the following command from the terminal in the same location as the executable file ASsim is located:
 
 
-./ASsim sim beta mu X0 2 N tend N_trials Xdat EXdat PXTdat
+./sim sim beta mu X0 2 N tend N_trials Xdat EXdat PXTdat
 
 Explanation of variables
  - sim:         The simulation method to use. Takes values 1 for GA, 2 for AS and 3 for S.
@@ -102,7 +102,7 @@ The probability distributions that appear in Figure 3a, Figure 3b
 To perform simulations on a custom network run the following command from the terminal in the same location as the executable file ASsim is located:
 
 
-./ASsim beta mu X0 2 filename tend N_trials Xdat EXdat PXTdat
+./sim beta mu X0 2 filename tend N_trials Xdat EXdat PXTdat
 
 Explanation of variables
  - beta:       The SIS transmission rate. It can take any non-negative values
